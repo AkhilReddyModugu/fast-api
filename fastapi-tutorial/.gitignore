@@ -1,0 +1,20 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Virtual environment
+env/
+
+# Temporary files and logs
+*.log
+*.bak
+*.swp
+
+.env
+
+# Ignore the compiled Python bytecode files in subdirectories
+fastapi-tutorial/__pycache__/
+fastapi-tutorial/config/__pycache__/
+fastapi-tutorial/models/__pycache__/
+fastapi-tutorial/routes/__pycache__/
+fastapi-tutorial/schemas/__pycache__/
